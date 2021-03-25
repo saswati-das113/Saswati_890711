@@ -1,0 +1,13 @@
+class equal_hash{
+public static void main(String args[]){
+String sas="saswati";
+String das="Das";
+String sas1="saswati";
+if(sas.equals(das)){
+	System.out.println(sas.hashCode()+" "+das.hashCode());
+}
+if(sas.equals(sas1)){
+	System.out.println(sas.hashCode()+" "+sas1.hashCode());
+   }
+ }
+}
